@@ -8,25 +8,7 @@ The project focuses on building a modern data pipeline using Python, Microsoft F
 
 ## Architecture
 
-```text
-DummyJSON REST API
-        ↓
-Python / Jupyter
-        ↓
-Fabric Data Pipeline
-        ↓
-OneLake / Lakehouse
-        ↓
-Bronze
-        ↓
-Silver
-        ↓
-Gold
-        ↓
-Semantic Model
-        ↓
-Power BI
-```
+![Architicture](screenshot/Architicture.png)
 
 ## Tech Stack
 
@@ -114,6 +96,7 @@ dim_product  1 ─── *  fact_sales
 dim_customer 1 ─── *  fact_sales
 dim_date     1 ─── *  fact_sales
 ```
+![Star_Scheema](screenshot/Star_Scheema.png)
 
 ### Main DAX Measures
 
@@ -159,6 +142,7 @@ The final Power BI report includes:
 * Top 10 Products by Sales
 * Top 10 Customers by Sales
 * Sales by Customer Gender
+![Dashboard](screenshot/Dashboard.png)
 
 ### Slicers
 
