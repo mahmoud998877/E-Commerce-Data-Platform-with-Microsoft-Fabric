@@ -8,7 +8,7 @@ The project focuses on building a modern data pipeline using Python, Microsoft F
 
 ## Architecture
 
-![Architicture](screenshot/Architicture.png)
+![Architecture](screenshot/Architecture.png)
 
 ## Tech Stack
 
